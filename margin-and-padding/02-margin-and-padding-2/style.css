@@ -26,15 +26,19 @@ body {
 }
 
 .button-container {
+  /* text align aligns the text to center to show "and a"
+  in the center. */
   text-align: center;
-  background: purple;
-  padding:8px;
+  background: rgb(209, 255, 188);
+  padding:8px; /*padding here will create a space between text and box */
 }
 
 button {
-  display: block;
-  margin: 0 auto;
-  padding:8px 24px;
+  display: block; /*display:block will create a box for the content*/
 
+  margin: 0 auto;/* margin: 0 will let top and bottom margins be 0
+                  and auto will cause left and right margins to autofit*/
+  padding:8px 24px;/*padding 8px refers to top and bottom paddings to be 8
+  and 24px refers to the left and right paddings*/
 
 }
