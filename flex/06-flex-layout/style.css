@@ -52,7 +52,12 @@ input {
 .input{
   margin-bottom: 5px;
 }
-
+.footer{
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightslategray;
+}
 .content{
   display: flex;
   flex-direction: column;
@@ -62,6 +67,10 @@ input {
 li{
   list-style: none;
   color: grey;
+}
+ul{
+  margin-left: 0;
+  padding-left: 5px;
 }
 a{
   text-decoration: none;
